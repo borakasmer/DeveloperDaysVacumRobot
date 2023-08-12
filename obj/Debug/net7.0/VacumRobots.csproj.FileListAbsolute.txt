@@ -1,0 +1,15 @@
+C:\Users\Bora Kasmer\source\repos\GenericAttributeBlog\VacumRobots\bin\Debug\net7.0\VacumRobots.exe
+C:\Users\Bora Kasmer\source\repos\GenericAttributeBlog\VacumRobots\bin\Debug\net7.0\VacumRobots.deps.json
+C:\Users\Bora Kasmer\source\repos\GenericAttributeBlog\VacumRobots\bin\Debug\net7.0\VacumRobots.runtimeconfig.json
+C:\Users\Bora Kasmer\source\repos\GenericAttributeBlog\VacumRobots\bin\Debug\net7.0\VacumRobots.dll
+C:\Users\Bora Kasmer\source\repos\GenericAttributeBlog\VacumRobots\bin\Debug\net7.0\VacumRobots.pdb
+C:\Users\Bora Kasmer\source\repos\GenericAttributeBlog\VacumRobots\obj\Debug\net7.0\VacumRobots.csproj.AssemblyReference.cache
+C:\Users\Bora Kasmer\source\repos\GenericAttributeBlog\VacumRobots\obj\Debug\net7.0\VacumRobots.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bora Kasmer\source\repos\GenericAttributeBlog\VacumRobots\obj\Debug\net7.0\VacumRobots.AssemblyInfoInputs.cache
+C:\Users\Bora Kasmer\source\repos\GenericAttributeBlog\VacumRobots\obj\Debug\net7.0\VacumRobots.AssemblyInfo.cs
+C:\Users\Bora Kasmer\source\repos\GenericAttributeBlog\VacumRobots\obj\Debug\net7.0\VacumRobots.csproj.CoreCompileInputs.cache
+C:\Users\Bora Kasmer\source\repos\GenericAttributeBlog\VacumRobots\obj\Debug\net7.0\VacumRobots.dll
+C:\Users\Bora Kasmer\source\repos\GenericAttributeBlog\VacumRobots\obj\Debug\net7.0\refint\VacumRobots.dll
+C:\Users\Bora Kasmer\source\repos\GenericAttributeBlog\VacumRobots\obj\Debug\net7.0\VacumRobots.pdb
+C:\Users\Bora Kasmer\source\repos\GenericAttributeBlog\VacumRobots\obj\Debug\net7.0\VacumRobots.genruntimeconfig.cache
+C:\Users\Bora Kasmer\source\repos\GenericAttributeBlog\VacumRobots\obj\Debug\net7.0\ref\VacumRobots.dll
