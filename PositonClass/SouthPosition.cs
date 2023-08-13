@@ -25,5 +25,13 @@ namespace VacumRobots.PositonClass
         {
             base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.W);
         }
+        public void Left180()
+        {
+            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.N);
+        }
+        public void Right180()
+        {
+            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.N);
+        }
     }
 }

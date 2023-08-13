@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bora Kasmer\\source\\repos\\GenericAttributeBlog\\VacumRobots - Orginal\\VacumRobots.csproj",
+      "projectUniqueName": "C:\\Users\\Bora Kasmer\\source\\repos\\GenericAttributeBlog\\VacumRobots\\VacumRobots.csproj",
       "projectName": "VacumRobots",
-      "projectPath": "C:\\Users\\Bora Kasmer\\source\\repos\\GenericAttributeBlog\\VacumRobots - Orginal\\VacumRobots.csproj",
+      "projectPath": "C:\\Users\\Bora Kasmer\\source\\repos\\GenericAttributeBlog\\VacumRobots\\VacumRobots.csproj",
       "packagesPath": "C:\\Users\\Bora Kasmer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bora Kasmer\\source\\repos\\GenericAttributeBlog\\VacumRobots - Orginal\\obj\\",
+      "outputPath": "C:\\Users\\Bora Kasmer\\source\\repos\\GenericAttributeBlog\\VacumRobots\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -59,7 +59,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.120\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.121\\RuntimeIdentifierGraph.json"
       }
     }
   }

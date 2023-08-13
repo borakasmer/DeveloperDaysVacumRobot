@@ -10,7 +10,9 @@ namespace VacumRobots.PositonClass
     {
         public void Move();
         public void Left();
+        public void Left180();
         public void Right();
+        public void Right180();
         public string CurrentPositon();
         public IRobot Robot { get; set; }
     }

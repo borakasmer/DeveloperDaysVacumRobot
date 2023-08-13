@@ -33,6 +33,10 @@ namespace VacumRobots
                 PositonEnum.N => new NorthPositon(robot),
                 PositonEnum.E => new EastPositon(robot),
                 PositonEnum.S => new SouthPositon(robot),
+                PositonEnum.Y => new NorthEastPositon(robot),
+                PositonEnum.T => new NorthWestPositon(robot),
+                PositonEnum.K => new SouthEastPositon(robot),
+                PositonEnum.L => new SouthWestPositon(robot),
             };
         }
     }

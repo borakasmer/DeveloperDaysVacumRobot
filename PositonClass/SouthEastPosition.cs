@@ -6,33 +6,33 @@ using System.Threading.Tasks;
 
 namespace VacumRobots.PositonClass
 {
-    public class EastPositon : BasePositon, IPositon
+    public class SouthEastPositon : BasePositon, IPositon
     {
-        public EastPositon(IRobot robot) : base(robot) { }
+        public SouthEastPositon(IRobot robot) : base(robot) { }
         public string CurrentPositon() { return this.GetCurrentPosition().ToString(); }
         public IRobot Robot { get { return robot; } set { robot = value; } }
-
         public void Left()
         {
-            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.N);
+            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.Y);
         }
 
         public void Move()
         {
-            base.robot.X = robot.RoomSize.X >= robot.X + 1 ? robot.X + 1 : robot.X;
+            base.robot.Y = robot.Y - 1 >= 0 ? robot.Y - 1 : robot.Y;
         }
 
         public void Right()
         {
-            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.S);
+            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.L);
         }
+
         public void Right180()
         {
-            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.W);
+            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.T);
         }
         public void Left180()
         {
-            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.W);
+            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.T);
         }
     }
 }

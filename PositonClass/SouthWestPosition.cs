@@ -1,38 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace VacumRobots.PositonClass
 {
-    public class WestPositon : BasePositon, IPositon
+    public class SouthWestPositon : BasePositon, IPositon
     {
-        public WestPositon(IRobot robot) : base(robot) { }
+        public SouthWestPositon(IRobot robot) : base(robot) { }
         public string CurrentPositon() { return this.GetCurrentPosition().ToString(); }
         public IRobot Robot { get { return robot; } set { robot = value; } }
         public void Left()
         {
-            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.S);
+            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.K);
         }
 
         public void Move()
         {
+            base.robot.Y = robot.Y - 1 >= 0 ? robot.Y - 1 : robot.Y;
             base.robot.X = robot.X - 1 >= 0 ? robot.X - 1 : robot.X;
         }
 
         public void Right()
         {
-            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.N);
+            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.T);
+        }
+
+        public void Right180()
+        {
+            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.Y);
         }
         public void Left180()
         {
-            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.E);
-        }
-        public void Right180()
-        {
-            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.E);
+            base.robot.Positon = PostionFactory.GeneratePositon(robot, PositonEnum.Y);
         }
     }
 }

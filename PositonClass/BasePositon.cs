@@ -18,6 +18,10 @@ namespace VacumRobots.PositonClass
                 NorthPositon => PositonEnum.N,
                 EastPositon => PositonEnum.E,
                 SouthPositon => PositonEnum.S,
+                NorthEastPositon => PositonEnum.Y,
+                NorthWestPositon => PositonEnum.T,
+                SouthEastPositon => PositonEnum.K,
+                SouthWestPositon => PositonEnum.L,
             };
         }
     }

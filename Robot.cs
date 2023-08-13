@@ -42,6 +42,12 @@ namespace VacumRobots
                     case MoveEnum.L:
                         Positon.Left();
                         break;
+                    case MoveEnum.X:
+                        Positon.Left180();
+                        break;
+                    case MoveEnum.Y:
+                        Positon.Right180();
+                        break;
                     default:
                         throw new ArgumentException("Invalid enum value for command", p.ToString());
                         break;

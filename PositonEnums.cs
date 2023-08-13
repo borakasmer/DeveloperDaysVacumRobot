@@ -11,14 +11,20 @@ namespace VacumRobots
         N = 1,
         E = 2,
         W = 3,
-        S = 4
+        S = 4,
+        Y = 5,
+        T = 6,
+        K = 7,
+        L = 8
     }
 
     public enum MoveEnum
     {
         M = 1,
         L = 2,
-        R = 3
+        R = 3,
+        X = 4,
+        Y = 5,
     }
 
     public static class StringExtension
